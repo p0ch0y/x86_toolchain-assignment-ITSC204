@@ -31,7 +31,7 @@ QEMU=False
 BREAK="_start"
 RUN=False
 
-# Loop through command-line arguments
+# This Loop through command-line arguments
 while [[ $# -gt 0 ]]; do
 	case $1 in
 		# ... (different options and their actions)
